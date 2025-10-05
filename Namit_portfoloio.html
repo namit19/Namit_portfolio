@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    
+    body{
+      background-color: #F9F9F9;
+      color: #333;
+      line-height: 1.6;
+    }
+    #navbar{
+      background-color: #F5EFE6;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 15px 30px;
+      position: sticky;
+    }
+    #navbar h3{
+      margin-right: auto;
+      font-size: 25px;
+      font-weight: bold;
+      color: #333;
+    }
+    #navbar ul{
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    #navbar a{
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+    #navbar a:hover{
+      background-color: #007BFF;
+      color: #fff;
+    }
+    #intro{
+      background-color: #E8DFCA;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    #intro h1{
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    #intro p{
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    #intro button{
+      padding: 10px 20px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #intro button:hover{
+      background-color: #0056b3;
+    }
+    .about, #project, #contact{
+      background-color: #fff;
+      padding: 50px 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .about img{
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    #project img{
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    #contact a{
+      display: inline-block;
+      margin: 5px 10px;
+      color: #007BFF;
+      transition: color 0.3s ease;
+    }
+    #contact a:hover{
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <h3>Namit Sangoi</h3>
+            <ul>
+              <li><a href="#home" id="ahome">Home</a></li>
+              <li><a href="#about" id="aabout">About</a></li>
+              <li><a href="#project" id="aproject">Projects</a></li>
+              <li><a href="#contact" id="acontact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="intro">
+            <h1>Namit Sangoi</h1>
+            <p>Frontend Developer | Design | Student (First Year)</p>
+            <a href="resume.pdf"><button>Download Resume</button></a>
+        </div>  
+    </header>
+
+    <div class="about" id="about">
+        <h2>About Me</h2>
+        <img src="WhatsApp Image 2025-09-18 at 3.01.59 PM.jpeg" alt="Namit Sangoi" height="250px" width="200px"> 
+        <p>Hi, I'm Namit Sangoi. I was born and brought up in Mumbai and I’m currently studying at Scaler School of Technology and Bits Pilani. I have a strong interest in coding and programming, ai and ml, and I enjoy learning new technologies and building innovative projects.</p>
+    </div><br>
+
+    <div id="project">
+        <h2>Projects</h2>
+        <img src="#" alt="projects">
+        <p>This is the first project I'll be working on</p>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: 
+        <a href="mailto:sangoinamit1906@gmail.com">sangoinamit1906@gmail.com</a>
+        </p>
+        <a href="https://linkedin.com/in/namit-sangoi-46287b23b">Linkedin</a>
+        <a href="https://www.instagram.com/namit_sangoi/">Instagram</a>
+        <p>Mobile no: 9324342142</p>
+    </div>
+</body>
+</html>
